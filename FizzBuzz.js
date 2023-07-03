@@ -1,4 +1,4 @@
-function createFizzBuzz(number) {    
+function FizzBuzz(number) {    
     if (Number.isInteger(number)) {
         if (number % 3 === 0 && number % 5 === 0)
             return 'FizzBuzz';
@@ -13,6 +13,6 @@ function createFizzBuzz(number) {
     }
 }
 
-module.exports = { createFizzBuzz };
+module.exports = { FizzBuzz };
 
 
